@@ -1,0 +1,464 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+
+<head> 
+	<meta charset="UTF-8"> 
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1.0"> 
+	<title>My Portfolio</title> 
+	<link rel="stylesheet"
+		href= 
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+		integrity= 
+"sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+			crossorigin="anonymous" referrerpolicy="no-referrer" /> 
+	<link rel="stylesheet" href="style.css"> 
+	<link rel="stylesheet" href="responsive.css"> 
+</head> 
+
+<body> 
+	<!-- Navbar header section -->
+	<header class="header"> 
+		<nav class="navbar"> 
+			<div class="logo"> 
+				<h2 class="logo-heading">MG</h2> 
+			</div> 
+			<div class="hamburger" id="hamburger"> 
+				<i class="fas fa-bars hamburger-icon"></i> 
+				<i class="fas fa-times cross-icon"></i> 
+			</div> 
+			<div class="menu"> 
+				<ul class="menu-list"> 
+					<li class="menu-list-items"> 
+						<a class="links" href="#home"> 
+							Home 
+						</a> 
+					</li> 
+					<li class="menu-list-items"> 
+						<a class="links" href="#certifications"> 
+							Certifications 
+						</a> 
+					</li> 
+					<li class="menu-list-items"> 
+						<a class="links" href="#about"> 
+							About 
+						</a> 
+					</li> 
+					<li class="menu-list-items"> 
+						<a class="links" href="#skills"> 
+							Skills
+						</a> 
+					</li> 
+					<li class="menu-list-items"> 
+						<a class="links" href="#contact"> 
+							Contact Me 
+						</a> 
+					</li> 
+				</ul> 
+			</div> 
+		</nav> 
+	</header> 
+
+	<!-- Main intro banner -->
+	<section id="home" class="main"> 
+		<div class="intro"> 
+			<div class="headings"> 
+				<h3 class="greet-heading">Hello, I'm</h3> 
+				<h1 class="my-heading">Mansi Gaikwad</h1> 
+				<h4 class="sub-heading"> 
+					Experience in Web Development. 
+				</h4> 
+			</div> 
+			<div class="intro-buttons"> 
+				<button class="btn common-btn">View Resume</button> 
+				<button class="btn ghost-btn">Contact me</button> 
+			</div> 
+		</div> 
+	</section> 
+
+	<!-- Certifications Section -->
+	<section class="certifications" id="certifications"> 
+		<div class="certifications-heading"> 
+			<h1 class="my-heading text-center">Certifications</h1> 
+		</div> 
+		<div class="certifications-content"> 
+			<div class="my-row"> 
+				<div class="my-col"> 
+					<div class="my-card cert-card"> 
+						<div class="image"> 
+							<img src="https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~6A6Z6F9G4MSX/CERTIFICATE_LANDING_PAGE~6A6Z6F9G4MSX.jpeg"
+								alt="Introduction to Applied Cryptography"> 
+						</div> 
+						<h3 class="greet-heading blue-text">Introduction to Applied Cryptography</h3> 
+						<p class="small-para blue-text">April 8, 2023</p> 
+					</div> 
+				</div> 
+				<div class="my-col"> 
+					<div class="my-card cert-card"> 
+						<div class="image"> 
+							<img src="https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~P5RXU2SCCQ38/CERTIFICATE_LANDING_PAGE~P5RXU2SCCQ38.jpeg"
+								alt="Scalable Machine Learning on Big Data using Apache Spark"> 
+						</div> 
+						<h3 class="greet-heading blue-text"> 
+							Scalable Machine Learning on Big Data using Apache Spark
+						</h3> 
+						<p class="small-para blue-text">July 26, 2023</p> 
+					</div> 
+				</div> 
+				<div class="my-col"> 
+					<div class="my-card cert-card"> 
+						<div class="image"> 
+							<img src="https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~XZDUPJ4TXK48/CERTIFICATE_LANDING_PAGE~XZDUPJ4TXK48.jpeg"
+                                alt="AWS Fundamentals"> 
+						</div> 
+						<h3 class="greet-heading blue-text">AWS Fundamentals</h3> 
+						<p class="small-para blue-text">November 18, 2023</p> 
+					</div> 
+				</div> 
+			</div> 
+			<div class="my-row"> 
+				<div class="my-col"> 
+					<div class="my-card cert-card"> 
+						<div class="image"> 
+							<img src="https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~T6BJ9XZHN3BR/CERTIFICATE_LANDING_PAGE~T6BJ9XZHN3BR.jpeg"
+								alt="AWS Cloud Solutions Architect"> 
+						</div> 
+						<h3 class="greet-heading blue-text"> 
+							AWS Cloud Solutions Architect
+						</h3> 
+						<p class="small-para blue-text">November 18, 2023</p> 
+					</div> 
+				</div> 
+				<div class="my-col"> 
+					<div class="my-card cert-card"> 
+						<div class="image"> 
+							<img src="https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~KT2XCKW8M4BK/CERTIFICATE_LANDING_PAGE~KT2XCKW8M4BK.jpeg"
+								alt="IT Fundamentals for Cybersecurity"> 
+						</div> 
+						<h3 class="greet-heading blue-text"> 
+							IT Fundamentals for Cybersecurity
+						</h3> 
+						<p class="small-para blue-text"> 
+							November 18, 2023
+						</p> 
+					</div> 
+				</div> 
+				<div class="my-col"> 
+					<div class="my-card cert-card"> 
+						<div class="image"> 
+							<img src="https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~GLTSPW999843/CERTIFICATE_LANDING_PAGE~GLTSPW999843.jpeg"
+								alt="Computer Security and Systems Management"> 
+						</div> 
+						<h3 class="greet-heading blue-text"> 
+							Computer Security and Systems Management
+						</h3> 
+						<p class="small-para blue-text">November 18, 2023</p> 
+					</div> 
+				</div> 
+			</div> 
+		</div> 
+	</section> 
+
+	<!-- About Section -->
+	<section id="about" class="about"> 
+		<div class="about-text"> 
+			<h1 class="my-heading">About Me</h1> 
+			<p class="lead-para"> 
+				I am a dedicated Computer Science student 
+				eager to embark on a challenging career 
+				in the IT industry. Strong in communication, 
+				leadership, and problem-solving, I possess 
+				a keen ability to analyze data and create 
+				effective solutions. My proficiency in 
+				programming languages like Python, Java, 
+				C++, C, and HTML/CSS, coupled with a solid grasp 
+				of OOP and DSA, allows me to develop user-friendly 
+				applications. I thrive in collaborative 
+				environments and am excited to contribute 
+				my skills to a dynamic team.
+			</p> 
+			<p> 
+				Recently spearheaded the development of a 
+				landing page. Collaborated with a team of 
+				five to publish a research paper. Actively 
+				participated in a college-wide tech event 
+				as a volunteer. Demonstrated strong 
+				communication and critical thinking 
+				skills through active involvement in 
+				group and panel discussions during class 
+				lectures.
+			</p> 
+		</div> 
+		<div class="about-image"> 
+			<img src="https://miro.medium.com/v2/resize:fit:810/1*HuZjdCgwCccO4rpADIW5fQ.png" alt="About Image"> 
+		</div> 
+	</section> 
+
+	<!-- Skills Section -->
+	<section class="skills" id="skills"> 
+		<div class="skills-heading"> 
+			<h1 class="my-heading text-center">Skills</h1> 
+		</div> 
+		<div class="skills-content"> 
+			<div class="my-row"> 
+				<div class="my-col"> 
+					<div class="my-card"> 
+						<div class="icon"> 
+							<i class="fas fa-paint-brush"></i> 
+						</div> 
+						<h3 class="greet-heading blue-text">Communication</h3> 
+						<p class="small-para"> 
+							As a leader, my clear communication will be key.
+							I can articulate the company's vision, inspiring 
+							and motivating my team. By actively listening to 
+							their ideas, I can foster collaboration and innovation,
+							propelling us towards a bright future.
+						</p> 
+						<p class="small-para"> 
+							Furthermore, my strong communication bridges the 
+							gap between colleagues, clients, and partners. 
+							I can build trust through transparency and address
+							concerns promptly. This collaborative environment
+						    will fuel the company's success.
+						</p> 
+					</div> 
+				</div> 
+				<div class="my-col"> 
+					<div class="my-card"> 
+						<div class="icon"> 
+							<i class="fa-solid fa-code"></i> 
+						</div> 
+						<h3 class="greet-heading blue-text"> 
+							Leadership and Management
+						</h3> 
+						<p class="small-para"> 
+							My leadership skills will empower our
+							team. I can clearly communicate the 
+							company's vision and inspire them to 
+							achieve our goals. By fostering 
+							collaboration and actively listening 
+							to their ideas, I'll unlock their 
+							driving innovation and success.
+						</p> 
+						<p class="small-para"> 
+							Furthermore, my management expertise will 
+							ensure smooth operations. I can 
+							effectively organize 
+							workflows, and hold people accountable. 
+							This focus on efficiency will keep us on 
+							track and allow us to adapt to changing 
+							circumstances.
+						</p> 
+					</div> 
+				</div> 
+				<div class="my-col"> 
+					<div class="my-card"> 
+						<div class="icon"> 
+							<i class="fas fa-chart-line"></i> 
+						</div> 
+						<h3 class="greet-heading blue-text">Data Analysis</h3> 
+						<p class="small-para"> 
+							My data analysis skills will be a compass
+							for our company's journey. I can 
+							translate numbers into insights, 
+							uncovering trends and customer preferences. 
+							This allows us to make data-driven 
+							decisions, optimizing marketing campaigns, 
+							streamlining operations, and developing 
+							products that truly resonate with our 
+							target audience.
+						</p> 
+						<p class="small-para"> 
+							Through data analysis, I can also 
+							identify areas for improvement. By 
+							pinpointing inefficiencies and roadblocks, 
+							we can optimize processes, reduce costs, 
+							and stay ahead of the competition. 
+	
+						</p> 
+					</div> 
+				</div> 
+			</div> 
+			<div class="my-row"> 
+				<div class="my-col"> 
+					<div class="my-card"> 
+						<div class="icon"> 
+							<i class="fas fa-quote-left"></i> 
+						</div> 
+						<h3 class="greet-heading blue-text"> 
+							User Experience
+						</h3> 
+						<p class="small-para"> 
+							My user experience expertise will 
+							create products people love. 
+							By deeply understanding user needs 
+							and behaviors, I can design intuitive 
+							and enjoyable interfaces. This will 
+							drive customer satisfaction, loyalty, 
+							and ultimately, business growth.
+						</p> 
+						<p class="small-para"> 
+							Furthermore, my focus on user 
+							experience will foster innovation. 
+							By challenging the status quo and 
+							exploring new possibilities, I can 
+							create products that stand out in the 
+							market. This competitive edge will propel 
+							our company towards success.
+						</p> 
+					</div> 
+				</div> 
+				<div class="my-col"> 
+					<div class="my-card"> 
+						<div class="icon"> 
+							<i class="fab fa-wordpress-simple"></i> 
+						</div> 
+						<h3 class="greet-heading blue-text"> 
+							Problem Solving 
+						</h3> 
+						<p class="small-para"> 
+							My problem-solving abilities will be a
+							game-changer for the company. I can 
+							analyze complex issues, identify root causes, 
+							and develop innovative solutions. This 
+							proactive approach will prevent crises and 
+							ensure we stay ahead of the competition.
+
+						</p> 
+						<p class="small-para"> 
+							Furthermore, my ability to think 
+							critically will drive decision-making. 
+							By weighing pros and cons and considering 
+							various perspectives, I'll make 
+							informed choices that align with the 
+							company's goals. This strategic mindset 
+							will propel us towards success.
+
+						</p> 
+					</div> 
+				</div> 
+				<div class="my-col"> 
+					<div class="my-card"> 
+						<div class="icon"> 
+							<i class="fas fa-video"></i> 
+						</div> 
+						<h3 class="greet-heading blue-text"> 
+							OOP
+						</h3> 
+						<p class="small-para"> 
+							My object-oriented programming skills 
+							will be instrumental in developing 
+							robust and scalable software solutions. 
+							I can design efficient systems with 
+							reusable code, reducing development 
+							time and costs.
+ 
+						</p> 
+						<p class="small-para"> 
+							Furthermore, my OOP expertise will 
+							improve software quality and maintainability. 
+							By creating well-structured and modular 
+							code, I can enhance code readability 
+							and ease future modifications. 
+							This will lead to fewer errors, faster 
+							development cycles, and ultimately, 
+							a better product for our customers. 
+						</p> 
+					</div> 
+				</div> 
+			</div> 
+		</div> 
+	</section> 
+
+	<!-- Contact me section -->
+	<section class="contact" id="contact"> 
+		<div class="contact-heading"> 
+			<h1 class="my-heading text-center">Contact Me</h1> 
+		</div> 
+		<div class="contact-content"> 
+			<div class="contact-form-container"> 
+				<h1 class="greet-heading">Any Query? Reach Out!</h1> 
+				<form class="contact-form"> 
+					<input class="form-controls" type="text"
+						placeholder="Enter your Name"> 
+					<input class="form-controls" type="text"
+						placeholder="Enter your Email"> 
+					<input class="form-controls" type="text"
+						placeholder="Enter your Phone Number"> 
+					<textarea class="form-controls"
+							placeholder="Write your message"
+							name="message" id="" cols="30"
+							rows="10"> 
+					</textarea> 
+					<input class="form-btn btn common-btn"
+						type="submit" value="Submit"> 
+				</form> 
+			</div> 
+			<div class="contact-details"> 
+				<h1 class="greet-heading">My Contact Details</h1> 
+				<div class="details"> 
+					<h5 class="contact-heading">EMAIL ID</h5> 
+					<p class="contact-text">mansigaikwad@gmail.com</p> 
+				</div> 
+				<div class="details"> 
+					<h5 class="contact-heading">PHONE NUMBER</h5> 
+					<p class="contact-text">+91-9876541230</p> 
+				</div> 
+				<div class="details"> 
+					<h5 class="contact-heading">LINKEDIN</h5> 
+					<p class="contact-text"><a href="linkedin.com/in/mansi-g-85961a226">LinkedIn Profile</a></p> 
+				</div> 
+				<div class="details"> 
+					<h5 class="contact-heading">ADDRESS</h5> 
+					<p class="contact-text">Maharashtra, India</p> 
+					<p>Pune</p> 
+				</div> 
+			</div> 
+		</div> 
+	</section> 
+
+	<!-- Footer section -->
+	<footer class="footer"> 
+		<div class="footer-content text-center"> 
+			<h4> 
+				Copyright © 2023 All rights reserved
+			</h4> 
+			<div class="social-links"> 
+				<div class="footer-menu"> 
+					<ul class="footer-menu-list"> 
+						<li class="footer-list-items"> 
+							<a class="footer-links" href="#"> 
+								<i class="fab fa-facebook-f"></i> 
+							</a> 
+						</li> 
+						<li class="footer-list-items"> 
+							<a class="footer-links" href="#"> 
+								<i class="fab fa-twitter"></i> 
+							</a> 
+						</li> 
+						<li class="footer-list-items"> 
+							<a class="footer-links" href="#"> 
+								<i class="fab fa-instagram"></i> 
+							</a> 
+						</li> 
+						<li class="footer-list-items"> 
+							<a class="footer-links" href="#"> 
+								<i class="fab fa-linkedin-in"></i> 
+							</a> 
+						</li> 
+					</ul> 
+				</div> 
+			</div> 
+		</div> 
+	</footer> 
+
+	<script src= 
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min."
+		integrity= 
+"sha512-uKQ39gEGiyUJl4AI6L+ekBdGKpGw4xJ55+xyJG7YFlJokPNYegn9KwQ3P8A7aFQAUtUsAQHep+d/lrGqrbPIDQ=="
+		crossorigin="anonymous" referrerpolicy="no-referrer"> 
+	</script> 
+	<script src="script.js"></script> 
+</body> 
+
+</html>
